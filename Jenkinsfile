@@ -9,7 +9,7 @@ pipeline {
         stage('Get App Code') {
             steps {
                 echo 'Getting the Application Source Code'
-                git branch: 'master', url: GITHUB_URL
+                git branch: 'main', url: GITHUB_URL
             }
         }
         stage('Build Image') {
