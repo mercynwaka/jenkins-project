@@ -3,7 +3,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'mercynwaka/jenkins-project'
         IMAGE_TAG = '1.0'
-        GITHUB_URL = 'git@github.com:mercynwaka/jenkins-project.git
+        GITHUB_URL = 'https://github.com/mercynwaka/jenkins-project'
 '
     }
     stages {
